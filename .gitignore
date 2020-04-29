@@ -1,0 +1,6 @@
+.bat
+.cmd
+.sh
+.idea/
+storage/sessions/**
+node_modules/

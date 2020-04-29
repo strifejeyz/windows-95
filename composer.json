@@ -1,0 +1,42 @@
+{
+  "name": "strifejeyz/framework",
+  "authors": [
+    {
+      "name": "Jesse Strife",
+      "email": "strifejeyz@gmail.com"
+    }
+  ],
+  "description": "A Fast and Lightweight PHP MVC Framework.",
+  "keywords": [
+    "framework",
+    "strife",
+    "MVC",
+    "RAD",
+    "OOP"
+  ],
+  "license": "MIT",
+  "version": "1.4.2",
+  "type": "project",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.6.14"
+  },
+  "autoload": {
+    "classmap": [
+      "kernel",
+      "kernel/database",
+      "kernel/security",
+      "app/models",
+      "app/seeders",
+      "app/requests",
+      "app/migrations"
+    ],
+    "files": [
+      "kernel/helpers.php",
+      "app/routes.php",
+      "app/config/database.php",
+      "app/config/application.php"
+    ]
+  }
+}
+

@@ -1,0 +1,473 @@
+body {
+    background-color: rgb(0,128,128);
+    font-family: "FRANKLIN GOTHIC";
+    overflow: hidden;
+    background-image: url("/assets/img/cover.jpg");
+    background-position:center
+}
+
+.border{
+    border: 2px solid #ffffff !important;
+    border-bottom: 2px solid #060606 !important;
+    border-right: 2px solid #060606 !important;
+    background: #c0c0c0;
+}
+
+
+/*========================*/
+/*        Flex Box        */
+/*========================*/
+
+.flex {
+    display: flex;
+}
+.flex .flex-left {
+    justify-content: left;
+}
+.flex .flex-between {
+    justify-content: space-between;
+}
+.flex .flex-center {
+    justify-content: center;
+}
+.flex .flex-right {
+    justify-content: right;
+}
+
+.desktop {
+    padding: 20px;
+}
+
+img {
+    -webkit-user-drag: none !important;
+    -khtml-user-drag: none !important;
+    -moz-user-drag: none !important;
+    -o-user-drag: none !important;
+    user-drag: none !important;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+    background: #c0c0c0;
+}
+::-webkit-scrollbar-thumb {
+    background: #bfbfbf;
+    border: 2px solid #ffffff;
+    border-right: 2px solid #5d5d5d;
+    border-bottom: 2px solid #5d5d5d;
+}
+
+
+.intro-list-of-stuff {
+  text-align: center;
+}
+.intro-list-of-stuff ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ICONS */
+
+#icon-intro {
+    left: 30px;
+    top: 20px;
+}
+#icon-projects {
+    left: 30px;
+    top: 120px;
+}
+#icon-strife {
+    left: 30px;
+    top: 220px;
+}
+#icon-skills {
+    left: 30px;
+    top: 320px;
+}
+#icon-git {
+    left: 30px;
+    top: 420px;
+}
+#icon-trash {
+    right: 30px;
+    bottom: 50px;
+}
+
+
+.folder-heading {
+  font-size: 20px;
+  font-weight: 600
+}
+
+.folder-subheading {
+  font-size: 16px;
+  font-weight: 300;
+  display: block;
+  position: relative;
+  top: -3px;
+}
+
+
+/* Folders */
+#folder-intro {
+    background: #ffffff;
+    left: 600px;
+    top: 50px;
+}
+#folder-intro .folder-body {
+  width: 700px;
+  height: 380px;
+}
+
+
+#folder-projects{
+  left: 600px;
+  top: 100px;
+}
+#folder-projects .folder-body {
+  width: 700px;
+  height: 580px;
+}
+
+
+#folder-strife {
+    left: 600px;
+    top: 150px;
+}
+#folder-strife .folder-body {
+  width: 700px;
+  height: 500px;
+}
+
+
+#folder-skills {
+    left: 600px;
+    top: 200px;
+}
+#folder-skills .folder-body {
+  width: 700px;
+  background: silver;
+  padding: 10px 0;
+}
+
+
+#folder-trash {
+    left: 600px;
+    top: 300px;
+}
+
+
+
+
+/*========================*/
+/*        PROJECTS        */
+/*========================*/
+#folder-projects .project-list {
+  padding: 15px;
+}
+#folder-projects .project-list .project-item {
+  text-align: left;
+}
+
+#folder-projects .project-list .title {
+  font-size: 17px;
+}
+#folder-projects .project-list .description {
+  padding: 10px;
+  font-size: 16px;
+}
+#folder-projects .project-list .project-details {
+  display: block;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 200px;
+  padding: 10px;
+}
+#folder-projects .project-list .project-details span {
+  display: block;
+}
+#folder-projects .project-list .project-details .link{ 
+  display: block;
+  width: 140px;
+  border: 2px solid #ffffff !important;
+  border-bottom: 2px solid #060606 !important;
+  border-right: 2px solid #060606 !important;
+  background: #c0c0c0;
+  text-align: center;
+  color: #000000;
+  text-decoration: none
+}
+
+
+
+/*========================*/
+/*          STRIFE        */
+/*========================*/
+#folder-strife .strife .strife-content {
+  left: 25%;
+  padding: 30px;
+}
+#folder-strife .strife .title {
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: 300;
+}
+#folder-strife .strife .sub-title {
+    font-size: 20px;
+}
+#folder-strife .strife .strife-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#folder-strife .strife .strife-list li{
+    display: inline;
+}
+#folder-strife .strife .strife-list li a {
+    display: inline-table;
+    padding: 5px 10px;
+    border: 2px solid #ffffff !important;
+    border-bottom: 2px solid #060606 !important;
+    border-right: 2px solid #060606 !important;
+    color: #333333;
+    text-decoration: none;
+}
+
+
+
+
+/*========================*/
+/*          SKILLS        */
+/*========================*/
+.skill-row {
+  display: flex;
+  justify-content:space-evenly;
+  padding: 10px;
+}
+
+.skill-row .skill-item {
+  padding: 5px;
+  background-color: #cdcdcd;
+  background-position: center;
+  box-shadow: 0 3px 30px #a7a7a7;
+  border: 1px solid #efefef;
+  transition: .3s;
+  width: 18%;
+  max-width: 140px;
+  overflow: hidden;
+  border: 2px solid #ffffff !important;
+  border-bottom: 2px solid #060606 !important;
+  border-right: 2px solid #060606 !important;
+}
+
+.skill-row .skill-item:hover {
+  transform: scale(1.1)
+}
+
+.skill-row .skill-item .skill-img img {
+  padding: 0 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.skill-row .skill-item .skill-star img {
+  width: 100%;
+  padding: 0 10px;
+}
+
+.skill-row .skill-name {
+  line-height: 15px;
+}
+
+
+
+
+
+
+/*========================*/
+/*     MEDIA QUERIES      */
+/*========================*/
+
+@media(max-width: 1600px) {
+
+  #folder-intro {
+      left: 450px;
+  }
+
+  #folder-projects{
+      left: 450px;
+  }
+
+  #folder-strife {
+      left: 450px;
+  }
+
+  #folder-skills {
+      left: 450px;
+  }
+
+  #folder-trash {
+      left: 450px;
+  }
+}
+
+
+@media(max-width: 1024px) {
+  
+  #folder-intro {
+      left: 160px;
+  }
+
+  #folder-projects{
+      left: 160px;
+  }
+
+  #folder-strife {
+      left: 160px;
+  }
+
+  #folder-skills {
+      left: 160px;
+  }
+
+  #folder-trash {
+      left: 160px;
+  }
+}
+
+@media(max-width: 991px) {
+  
+  #folder-intro {
+      left: 150px;
+  }
+  #folder-intro .folder-body {
+      width: 650px;
+  }
+
+  #folder-projects{
+      left: 150px;
+  }
+  #folder-projects .folder-body {
+      width: 650px;
+  }
+
+  #folder-strife {
+      left: 150px;
+  }
+  #folder-strife .folder-body {
+      width: 650px;
+  }
+
+  #folder-skills {
+      left: 150px;
+  }
+  #folder-skills .folder-body {
+      width: 650px;
+  }
+
+  #folder-trash {
+      left: 150px;
+  }
+  #folder-trash .folder-body {
+      width: 650px;
+  }
+}
+
+
+@media(max-width: 768px) {
+  
+  #folder-intro {
+      left: 100px;
+      top: 30px;
+  }
+  #folder-intro .folder-body {
+      width: 570px;
+  }
+
+  #folder-projects{
+      left: 100px;
+      top: 40px;
+  }
+  #folder-projects .folder-body {
+      width: 570px;
+  }
+
+  #folder-strife {
+      left: 100px;
+      top: 50px;      
+  }
+  #folder-strife .folder-body {
+      width: 570px;
+  }
+
+  #folder-skills {
+      left: 100px;
+      top: 60px;
+  }
+  #folder-skills .folder-body {
+      width: 570px;
+  }
+
+  #folder-trash {
+      left: 100px;
+  }
+  #folder-trash .folder-body {
+      width: 570px;
+  }
+
+  .minimized-items button {
+    width: 45px !important;
+  }
+
+  .minimized-items button span {
+    display: none;
+  }
+}
+
+
+@media(max-width: 575px) {
+  
+  #folder-intro {
+      left: 35px;
+      top: 10px;
+  }
+  #folder-intro .folder-body {
+      width: 500px;
+  }
+
+  #folder-projects{
+      left: 35px;
+      top: 20px;
+  }
+  #folder-projects .folder-body {
+      width: 500px;
+  }
+
+  #folder-strife {
+      left: 35px;
+      top: 30px;
+  }
+  #folder-strife .folder-body {
+      width: 500px;
+  }
+
+  #folder-skills {
+      left: 35px;
+      top: 40px;
+  }
+  #folder-skills .folder-body {
+      width: 500px;
+  }
+
+  #folder-trash {
+      left: 35px;
+  }
+  #folder-trash .folder-body {
+      width: 500px;
+  }
+}

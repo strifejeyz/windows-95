@@ -19,4 +19,4 @@
 > **And of course, read something.**  
 > **View it in Fullscreen**  
 
-### <a href="http://strifeframework.cf">Visit Windows 95 Experience</a>  
+### <a href="http://windows95experience.ml">Visit Windows 95 Experience</a>  

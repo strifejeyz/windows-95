@@ -80,20 +80,12 @@
         data: function () {
             return {
                 startMenu: false,
-                time: null
+                time: "",
             }
         },
         mounted () {
-            let self = this;
-            Axios.post("/time").then(function (r) {
-                self.time = r.data;
-            });
-
-            window.addEventListener("click", function (e) {
-                Axios.post("/time").then(function (r) {
-                    self.time = r.data;
-                });
-            });
+          let time = new Date();
+          this.time = time.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true })
         },
         
         methods: {

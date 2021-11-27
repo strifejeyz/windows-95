@@ -407,7 +407,7 @@
                     v-show    = "!folders.trash.minimized && folders.trash.visible"
                     v-if      = "folders.trash.visible">
                     <div style="padding: 100px">
-                        <h1>I do <b>shift</b>+<b>delete</b> all the time.</h1>
+                        <h1>Trash is empty.</h1>
                     </div>
                 </folder>
             </transition>

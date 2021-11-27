@@ -4,7 +4,6 @@
 [![GitHub watchers](https://img.shields.io/github/watchers/Naereen/StrapDown.js.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/strifejeyz/windows-95/watchers/)
 
 
-
 ![Strife Framework](assets/img/windows-95-preview.png)
 # Windows 95 Experience
 ### A web-based simulation of the well-known legacy OS Windows 95  
@@ -18,4 +17,4 @@
 > **And of course, read something.**  
 > **View it in Fullscreen**  
 
-### <a href="http://windows95experience.ml">Visit Windows 95 Experience</a>  
+### <a href="https://strifejeyz.github.io/windows-95/">Windows 95 Experience Demo</a>  

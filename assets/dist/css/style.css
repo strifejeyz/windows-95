@@ -2,7 +2,7 @@ body {
     background-color: rgb(0,128,128);
     font-family: "FRANKLIN GOTHIC";
     overflow: hidden;
-    background-image: url("/assets/img/cover.jpg");
+    background-image: url("../../img/cover.jpg");
     background-position:center
 }
 

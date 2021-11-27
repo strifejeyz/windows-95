@@ -9,9 +9,9 @@
                     </span>
                 </div>
                 <div class="buttons">
-                    <img draggable="false" src="/assets/img/folder/minimize.png" @click="minimize"/>
-                    <img draggable="false" src="/assets/img/folder/maximize.png" @click="maximize"/>
-                    <img draggable="false" src="/assets/img/folder/close.png" @click="close"/>
+                    <img draggable="false" src="assets/img/folder/minimize.png" @click="minimize"/>
+                    <img draggable="false" src="assets/img/folder/maximize.png" @click="maximize"/>
+                    <img draggable="false" src="assets/img/folder/close.png" @click="close"/>
                 </div>
             </div>
             <ul class="menu">

@@ -3,26 +3,26 @@
         <div class="start-menu">
             <transition name="popup">
                 <div class="start-menu-list" v-if="startMenu">
-                    <div class="side-brand"><img src="/assets/img/side-brand.png" class="img-fluid"></div>
+                    <div class="side-brand"><img src="assets/img/side-brand.png" class="img-fluid"></div>
                     <div class="menu-items">
                         <button @click="restore('intro')">
-                            <img src="/assets/img/icons/folder-open.png">
+                            <img src="assets/img/icons/folder-open.png">
                             <span class="menu-name">Intro</span>
                         </button>
                         <button @click="restore('projects')">
-                            <img src="/assets/img/icons/computer.png">
+                            <img src="assets/img/icons/computer.png">
                             <span class="menu-name">My Projects</span>
                         </button>
                         <button @click="restore('strife')">
-                            <img src="/assets/img/icons/strife.png">
+                            <img src="assets/img/icons/strife.png">
                             <span class="menu-name">Strife Framework</span>
                         </button>
                         <button @click="restore('skills')">
-                            <img src="/assets/img/icons/skills.png">
+                            <img src="assets/img/icons/skills.png">
                             <span class="menu-name">Skills</span>
                         </button>
                         <a href="http://github.com/strifejeyz" target="_blank">
-                            <img src="/assets/img/icons/git.png">
+                            <img src="assets/img/icons/git.png">
                             <span class="menu-name">Github</span>
                         </a>
                         <span class="divider"></span>
@@ -31,36 +31,36 @@
             </transition>
             <div class="flex flex-left">
                 <button class="start-button" @click="startMenu = !startMenu">
-                    <img src="/assets/img/icons/start-button.png"> <span class="start-word">Start</span>
+                    <img src="assets/img/icons/start-button.png"> <span class="start-word">Start</span>
                 </button>
                 <div class="minimized-items">
                     <transition name="slideLeft">
                         <button v-if="folders.intro.visible" class="border" @click="restore('intro', folders.intro.id)">
-                            <img src="/assets/img/icons/folder-open.png"> <span>Intro</span>
+                            <img src="assets/img/icons/folder-open.png"> <span>Intro</span>
                         </button>
                     </transition>
 
                     <transition name="slideLeft">
                         <button v-if="folders.projects.visible" class="border" @click="restore('projects', folders.projects.id)">
-                            <img src="/assets/img/icons/computer.png"> <span>My Projects</span>
+                            <img src="assets/img/icons/computer.png"> <span>My Projects</span>
                         </button>
                     </transition>
 
                     <transition name="slideLeft">
                         <button v-if="folders.strife.visible" class="border" @click="restore('strife', folders.strife.id)">
-                            <img src="/assets/img/icons/strife.png"> <span>Strife</span>
+                            <img src="assets/img/icons/strife.png"> <span>Strife</span>
                         </button>
                     </transition>
 
                     <transition name="slideLeft">
                         <button v-if="folders.skills.visible" class="border" @click="restore('skills', folders.skills.id)">
-                            <img src="/assets/img/icons/skills.png"> <span>Skills</span>
+                            <img src="assets/img/icons/skills.png"> <span>Skills</span>
                         </button>
                     </transition>
 
                     <transition name="slideLeft">
                         <button v-if="folders.trash.visible" class="border" @click="restore('trash', folders.trash.id)">
-                            <img src="/assets/img/icons/trash.png"> <span>Trash</span>
+                            <img src="assets/img/icons/trash.png"> <span>Trash</span>
                         </button>
                     </transition>
                 </div>

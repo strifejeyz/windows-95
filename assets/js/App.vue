@@ -78,10 +78,10 @@
                             <span class="folder-subheading">A Fast and Lightweight PHP MVC Framework.</span>
                         </p>
 
-                        <img src="/assets/img/strife-slides/1.png" v-if="folders.strife.sample==1" class="img-fluid">
-                        <img src="/assets/img/strife-slides/2.png" v-if="folders.strife.sample==2" class="img-fluid">
-                        <img src="/assets/img/strife-slides/3.png" v-if="folders.strife.sample==3" class="img-fluid">
-                        <img src="/assets/img/strife-slides/4.png" v-if="folders.strife.sample==4" class="img-fluid">
+                        <img src="assets/img/strife-slides/1.png" v-if="folders.strife.sample==1" class="img-fluid">
+                        <img src="assets/img/strife-slides/2.png" v-if="folders.strife.sample==2" class="img-fluid">
+                        <img src="assets/img/strife-slides/3.png" v-if="folders.strife.sample==3" class="img-fluid">
+                        <img src="assets/img/strife-slides/4.png" v-if="folders.strife.sample==4" class="img-fluid">
 
                         <div style="display: flex;justify-content: center;">
                             <button class="border" @click="folders.strife.sample=1">Routing</button>
@@ -229,10 +229,10 @@
                     <div class="skill-row">
                         <div class="skill-item">
                             <div class="skill-img">
-                                <img src="/assets/img/skills/php.png">
+                                <img src="assets/img/skills/php.png">
                             </div>
                             <div class="skill-star">
-                                <img src="/assets/img/stars/4.png">
+                                <img src="assets/img/stars/4.png">
                             </div>
                             <div class="skill-name">
                                 <div class="skill">PHP(OOP/MVC)</div>
@@ -240,10 +240,10 @@
                         </div>
                         <div class="skill-item">
                             <div class="skill-img">
-                                <img src="/assets/img/skills/js.png">
+                                <img src="assets/img/skills/js.png">
                             </div>
                             <div class="skill-star">
-                                <img src="/assets/img/stars/4.png">
+                                <img src="assets/img/stars/4.png">
                             </div>
                             <div class="skill-name">
                                 Javascript
@@ -251,10 +251,10 @@
                         </div>
                         <div class="skill-item">
                             <div class="skill-img">
-                                <img src="/assets/img/skills/vue.png">
+                                <img src="assets/img/skills/vue.png">
                             </div>
                             <div class="skill-star">
-                                <img src="/assets/img/stars/4.png">
+                                <img src="assets/img/stars/4.png">
                             </div>
                             <div class="skill-name">
                                 Vuejs
@@ -262,10 +262,10 @@
                         </div>
                         <div class="skill-item">
                             <div class="skill-img">
-                                <img class="skill-img" src="/assets/img/skills/css.png">
+                                <img class="skill-img" src="assets/img/skills/css.png">
                             </div>
                             <div class="skill-star">
-                                <img src="/assets/img/stars/4.png">
+                                <img src="assets/img/stars/4.png">
                             </div>
                             <div class="skill-name">
                                 CSS/CSS3
@@ -273,10 +273,10 @@
                         </div>
                         <div class="skill-item">
                             <div class="skill-img">
-                                <img class="skill-img" src="/assets/img/skills/rest.png">
+                                <img class="skill-img" src="assets/img/skills/rest.png">
                             </div>
                             <div class="skill-star">
-                                <img src="/assets/img/stars/4.png">
+                                <img src="assets/img/stars/4.png">
                             </div>
                             <div class="skill-name">
                                 REST API
@@ -286,10 +286,10 @@
                     <div class="skill-row">
                         <div class="skill-item">
                             <div class="skill-img">
-                                <img class="skill-img" src="/assets/img/skills/mysql.png">
+                                <img class="skill-img" src="assets/img/skills/mysql.png">
                             </div>
                             <div class="skill-star">
-                                <img src="/assets/img/stars/4.png">
+                                <img src="assets/img/stars/4.png">
                             </div>
                             <div class="skill-name">
                                 MySQL
@@ -297,10 +297,10 @@
                         </div>
                         <div class="skill-item">
                             <div class="skill-img">
-                                <img class="skill-img" src="/assets/img/skills/bs.png">
+                                <img class="skill-img" src="assets/img/skills/bs.png">
                             </div>
                             <div class="skill-star">
-                                <img src="/assets/img/stars/4.png">
+                                <img src="assets/img/stars/4.png">
                             </div>
                             <div class="skill-name">
                                 Bootstrap 3/4
@@ -308,10 +308,10 @@
                         </div>
                         <div class="skill-item">
                             <div class="skill-img">
-                                <img class="skill-img" src="/assets/img/skills/ionic.png">
+                                <img class="skill-img" src="assets/img/skills/ionic.png">
                             </div>
                             <div class="skill-star">
-                                <img src="/assets/img/stars/3.png">
+                                <img src="assets/img/stars/3.png">
                             </div>
                             <div class="skill-name">
                                 IONIC 4
@@ -319,10 +319,10 @@
                         </div>
                         <div class="skill-item">
                             <div class="skill-img">
-                                <img class="skill-img" src="/assets/img/skills/ps.png">
+                                <img class="skill-img" src="assets/img/skills/ps.png">
                             </div>
                             <div class="skill-star">
-                                <img src="/assets/img/stars/3.png">
+                                <img src="assets/img/stars/3.png">
                             </div>
                             <div class="skill-name">
                                 Photoshop CS6
@@ -330,10 +330,10 @@
                         </div>
                         <div class="skill-item">
                             <div class="skill-img">
-                                <img class="skill-img" src="/assets/img/skills/vegas.png">
+                                <img class="skill-img" src="assets/img/skills/vegas.png">
                             </div>
                             <div class="skill-star">
-                                <img src="/assets/img/stars/3.png">
+                                <img src="assets/img/stars/3.png">
                             </div>
                             <div class="skill-name">
                                 Vegas Pro
@@ -343,10 +343,10 @@
                     <div class="skill-row">
                         <div class="skill-item">
                             <div class="skill-img">
-                                <img class="skill-img" src="/assets/img/skills/vb.png">
+                                <img class="skill-img" src="assets/img/skills/vb.png">
                             </div>
                             <div class="skill-star">
-                                <img src="/assets/img/stars/3.png">
+                                <img src="assets/img/stars/3.png">
                             </div>
                             <div class="skill-name">
                                 Visual Basic
@@ -354,10 +354,10 @@
                         </div>
                         <div class="skill-item">
                             <div class="skill-img">
-                                <img class="skill-img" src="/assets/img/skills/ng.png">
+                                <img class="skill-img" src="assets/img/skills/ng.png">
                             </div>
                             <div class="skill-star">
-                                <img src="/assets/img/stars/3.png">
+                                <img src="assets/img/stars/3.png">
                             </div>
                             <div class="skill-name">
                                 Angular
@@ -365,10 +365,10 @@
                         </div>
                         <div class="skill-item">
                             <div class="skill-img">
-                                <img class="skill-img" src="/assets/img/skills/strife.png">
+                                <img class="skill-img" src="assets/img/skills/strife.png">
                             </div>
                             <div class="skill-star">
-                                <img src="/assets/img/stars/5.png">
+                                <img src="assets/img/stars/5.png">
                             </div>
                             <div class="skill-name">
                                 Strife Framework
@@ -376,10 +376,10 @@
                         </div>
                         <div class="skill-item">
                             <div class="skill-img">
-                                <img class="skill-img" src="/assets/img/skills/hosting.png">
+                                <img class="skill-img" src="assets/img/skills/hosting.png">
                             </div>
                             <div class="skill-star">
-                                <img src="/assets/img/stars/4.png">
+                                <img src="assets/img/stars/4.png">
                             </div>
                             <div class="skill-name">
                                 Web Hosting <br> Administration
@@ -387,10 +387,10 @@
                         </div>
                         <div class="skill-item">
                             <div class="skill-img">
-                                <img class="skill-img" src="/assets/img/skills/seo.png">
+                                <img class="skill-img" src="assets/img/skills/seo.png">
                             </div>
                             <div class="skill-star">
-                                <img src="/assets/img/stars/3.png">
+                                <img src="assets/img/stars/3.png">
                             </div>
                             <div class="skill-name">
                                 SEO
@@ -444,7 +444,7 @@
                         minimized: false,
                         visible: true,
                         items:    1,
-                        icon: "/assets/img/icons/folder-open.png"
+                        icon: "assets/img/icons/folder-open.png"
                     },
                     strife: {
                         title:     "Strife Framework!",
@@ -453,7 +453,7 @@
                         visible:   false,
                         sample:    1,
                         items:     4,
-                        icon: "/assets/img/icons/strife.png"
+                        icon: "assets/img/icons/strife.png"
                     },
                     projects: {
                         title:    "#FOSS",
@@ -461,7 +461,7 @@
                         minimized: false,
                         visible:   false,
                         items:     4,
-                        icon: "/assets/img/icons/strife.png"
+                        icon: "assets/img/icons/strife.png"
                     },
                     skills: {
                         title:   "My Skills",
@@ -469,7 +469,7 @@
                         minimized: false,
                         visible: false,
                         items:     15,
-                        icon: "/assets/img/icons/skills.png"
+                        icon: "assets/img/icons/skills.png"
                     },
                     trash: {
                         title:     "Recycle Bin",
@@ -477,33 +477,33 @@
                         minimized: false,
                         visible:   false,
                         items:     0,
-                        icon: "/assets/img/icons/trash.png"
+                        icon: "assets/img/icons/trash.png"
                     },
                 },
                 icons: {
                     intro: {
                         name: "Intro",
-                        icon: "/assets/img/icons/folder-open.png"
+                        icon: "assets/img/icons/folder-open.png"
                     },
                     projects: {
                         name: "My Projects",
-                        icon: "/assets/img/icons/computer.png"
+                        icon: "assets/img/icons/computer.png"
                     },
                     strife: {
                         name: "Strife Framework",
-                        icon: "/assets/img/icons/strife.png"
+                        icon: "assets/img/icons/strife.png"
                     },
                     skills: {
                         name: "My Skills",
-                        icon: "/assets/img/icons/skills.png"
+                        icon: "assets/img/icons/skills.png"
                     },
                     git:    {
                         name: "Github",
-                        icon: "/assets/img/icons/git.png"
+                        icon: "assets/img/icons/git.png"
                     },
                     trash: {
                         name: "Recycle Bin",
-                        icon: "/assets/img/icons/trash.png"
+                        icon: "assets/img/icons/trash.png"
                     }
                 }
             }

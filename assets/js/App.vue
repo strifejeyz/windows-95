@@ -423,8 +423,6 @@
     import taskbar from "./components/taskbar";
     import folder from "./components/folder";
     import icon from "./components/icon";
-    import "../dist/css/animate.css";
-    import "../dist/css/style.css";
 
     export default {
         name: "App",

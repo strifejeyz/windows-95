@@ -1,6 +1,6 @@
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://windows95experience.ml/)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/strifejeyz/windows-95/blob/master/LICENSE)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-green.svg)](https://GitHub.com/strifejeyz/windows-95/graphs/commit-activity)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://GitHub.com/strifejeyz/windows-95/graphs/commit-activity)
 [![GitHub watchers](https://img.shields.io/github/watchers/Naereen/StrapDown.js.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/strifejeyz/windows-95/watchers/)
 
 

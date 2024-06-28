@@ -14,7 +14,6 @@
 > **Open icons on the desktop/start menu**  
 > **Minimize/Maximize folders**  
 > **Interact with buttons**  
-> **And of course, read something.**  
 > **View it in Fullscreen**  
 
 ### <a href="https://strifejeyz.github.io/windows-95/">Windows 95 Experience Demo</a>  
